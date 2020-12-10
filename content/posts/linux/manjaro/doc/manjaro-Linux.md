@@ -100,6 +100,10 @@ echo "
   > `cantata` # 自带音乐播放器  
   >
   > `nano` # 类似vim的终端编辑器
+  >
+  > `manjaro-hello` # hello
+  >
+  > `manjaro-documentation-en` # manjaro英文文档
 
 ---
 
@@ -530,6 +534,9 @@ cd /var/cache/pacman/pkg
 sudo pacman -U virtualbox-5.2.12-1-x86_64.pkg.tar.xz
 #升级时不升级virtualbox包
 sudo pacman -Su --ignore virtualbox
+# 清理无用依赖
+yay -Yc
+
 ```
 
 `其他命令：`
