@@ -1,4 +1,0 @@
-*.sh text eol=lf
-*.py text eol=crlf
-*.txt text eol=crlf
-*.jpg -text 
