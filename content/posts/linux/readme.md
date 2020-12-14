@@ -4,8 +4,6 @@ hidden = true
 
 +++
 
+博客学习中。。。
 
-
-## [manjaro Linux](./manjaro/doc/manjaro-Linux.md)
-
-## [windows开发工具](windows/doc/win10安装开发工具.md)
+正在学习怎么玩。。。
