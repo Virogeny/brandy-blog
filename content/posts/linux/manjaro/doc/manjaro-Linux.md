@@ -880,7 +880,7 @@ hugo new ./content/posts/fire.md
 hugo server
 ```
 
-## 2. 主题
+### 2. 主题
 
 [github](https://github.com/nodejh/hugo-theme-cactus-plus/blob/master/README_zh-cn.md)
 
