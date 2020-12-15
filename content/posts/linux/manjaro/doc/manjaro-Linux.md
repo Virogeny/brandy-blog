@@ -885,3 +885,12 @@ hugo server
 [github](https://github.com/nodejh/hugo-theme-cactus-plus/blob/master/README_zh-cn.md)
 
 ### 3. [我的地址](https://brandykk.gitee.io/)
+
+## 启用TRIM（仅 SSD）
+
+- 如果你的根分区已经安装在了 SSD 上，启用 [TRIM](https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Trim_(computing)) 会是你在安装 Manjaro 后需要做的一件事。TRIM 会帮助清理 SSD 中的块，从而延长 SSD 的使用寿命。
+
+```sh
+systemctl enable fstrim.timer
+```
+
