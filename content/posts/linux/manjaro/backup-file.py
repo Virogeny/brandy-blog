@@ -4,7 +4,7 @@ import sys
 import os
 import time
 
-backupPath = "/mnt/store/git_repositories/linux-study/backup/"
+backupPath = "/mnt/store/project-manage/gitee-io/git-source/brandy-blog/content/posts/linux/backup/"
 
 # 接收脚本执行的参数
 filePath = ""
