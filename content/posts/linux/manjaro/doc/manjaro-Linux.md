@@ -18,9 +18,12 @@ draft = false
 |:-----:|:-------:|:------:|:---:|
 |fat32  |/boot/efi|300M    |boot,esp（用于双系统启动分区）|
 |ext4   |/opt     |20G     |第三方软件安装目录|
-|ext4   |/        |50G     |根分区|
+|ext4   |/        |40G     |根分区|
 |swap   |swap     |4G      |交换分区（一般是内存的一半）|
-|home |/home |110G |用户主目录|
+|home |/home |120G |用户主目录|
+|boot |/boot |1G |启动 Linux 时使用的一些核心文件，包括一些连接文件以及镜像文件|
+|var |/var |20G |各种日志文件|
+|usr |/usr |50G |应用程序和文件都放在这个目录下|
 
 ---
 
@@ -216,6 +219,15 @@ vim .git/config
 #推送
 git push
 ```
+
+- 每次push都要输入密码：
+
+```sh
+# 执行命令，然后在输入一次就好了
+git config --global credential.helper store
+```
+
+
 
 ---
 
