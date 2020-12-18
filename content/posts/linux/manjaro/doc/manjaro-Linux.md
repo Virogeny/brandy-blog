@@ -348,7 +348,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 `配置文件：~/.config/nvim/init.vim：`
 
-- 插件安装参考[github](https://github.com/junegunn/vim-plug)
+- 插件安装参考[vim-plug](https://github.com/junegunn/vim-plug)
+- [markdown预览插件](https://github.com/iamcco/markdown-preview.nvim)
 
 ```.vim
 # neovim基础配置推荐：
@@ -407,7 +408,11 @@ call plug#begin('~/.config/nvim/plugged')
 " PlugClean[!] 删除没有列出的插件
 " PlugUpgrade 升级 vim-plug
 " PlugStatus 检查插件状态
+" -------------------------------
+" markdown预览（需要nodejs和yarn)
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
+" ---------------------------
 " 插件安装结束
 call plug#end()
 
