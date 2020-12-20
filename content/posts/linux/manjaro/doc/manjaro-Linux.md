@@ -117,16 +117,12 @@ echo "
   > `neovim` [终端编辑器](#安装neovim)  
   > `vscode` 编辑器，IDE  
   > `微信` [deepin-wechat](#微信)  
-  >
   > `yay` AUR包管理工具
-  >
   > `flameshot` [火焰截图](#安装flameshot)  
-  >
   > `netease-cloud-music`  网易云音乐（[无法输入中文](https://blog.csdn.net/qq_35034099/article/details/105990728)）
-  >
   > `fcitx5` [输入法](#安装输入法)
-  >
-  > `smartgit/gitkraken` git/svn可视化工具（付费）
+  > `smartgit/gitkraken` git/svn可视化工具（付费）  
+  > `mpv` 视频播放器
 
 ---
 
@@ -412,6 +408,8 @@ call plug#begin('~/.config/nvim/plugged')
 " markdown预览（需要nodejs和yarn)
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
+" 状态栏主题
+Plug 'vim-airline/vim-airline'
 " ---------------------------
 " 插件安装结束
 call plug#end()
