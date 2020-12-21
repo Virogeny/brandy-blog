@@ -1,12 +1,13 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
-date = {{ .Date }}
-tags = [""]
-categories = [""]
+title = "vim快捷键记录"
+description = "vim常用的快捷键记录"
+date = 2020-12-21T16:27:50+08:00
+tags = ["linux"]
+categories = ["linux"]
 draft = false
-description = " "
 
 +++
+
 # vim快捷键记录
 
 ## 光标移动
