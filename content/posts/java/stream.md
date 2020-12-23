@@ -8,7 +8,7 @@ description = "java新特新之stream流"
 
 +++
 
-## 将List\<T>转Map\<String,List\<T>>
+## 将List\<T>转Map\<String,List\<T>
 
 ```java
 List<AreaOfOrg> areaOfOrgs = areaOfOrgMapper.countyListAll();
@@ -19,7 +19,6 @@ Map<String, List<AreaOfOrg>> map = areaOfOrgs.stream().collect(Collectors.groupi
 
 - filter 方法用于通过设置的条件过滤出元素  
 
-```txt
 ```java
 List<String>strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
 // 获取空字符串的数量
