@@ -1,0 +1,8 @@
+# 配置fcitx5开机加载
+fcitx5 &
+
+# 解决WPS无法输入中文
+export XMODIFIERS="@im=fcitx5"
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+

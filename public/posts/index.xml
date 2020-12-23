@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 白小生</title>
+    <link>https://brandykk.gitee.io/posts/</link>
+    <description>Recent content in Posts on 白小生</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 23 Dec 2020 11:39:08 +0800</lastBuildDate><atom:link href="https://brandykk.gitee.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marksown语法</title>
+      <link>https://brandykk.gitee.io/posts/markdown/marksown%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Wed, 23 Dec 2020 11:39:08 +0800</pubDate>
+      
+      <guid>https://brandykk.gitee.io/posts/markdown/marksown%E8%AF%AD%E6%B3%95/</guid>
+      <description>内容折叠 内容</description>
+    </item>
+    
+    <item>
+      <title>Java 生成验证码1</title>
+      <link>https://brandykk.gitee.io/posts/java/create-verify1/</link>
+      <pubDate>Wed, 23 Dec 2020 11:23:28 +0800</pubDate>
+      
+      <guid>https://brandykk.gitee.io/posts/java/create-verify1/</guid>
+      <description>Utility.java import org.apache.commons.lang3.StringUtils; import org.apache.commons.logging.Log; import org.apache.commons.logging.LogFactory; import java.math.BigDecimal; import java.text.SimpleDateFormat; import java.util.*; public class Utility { protected final static Log logger = LogFactory.getLog(Utility.class); public static &amp;lt;T&amp;gt; List&amp;lt;T&amp;gt; newArray(int size, Class&amp;lt;T&amp;gt; clazz) { List&amp;lt;T&amp;gt; l = new ArrayList&amp;lt;T&amp;gt;(); for (int i = 0; i &amp;lt; size; i++) { T newInstance; try { newInstance = clazz.newInstance(); } catch (Exception e) { newInstance = null; } l.add(newInstance); } return l; } public</description>
+    </item>
+    
+    <item>
+      <title>vim快捷键记录</title>
+      <link>https://brandykk.gitee.io/posts/linux/common/vim/vim%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 21 Dec 2020 16:27:50 +0800</pubDate>
+      
+      <guid>https://brandykk.gitee.io/posts/linux/common/vim/vim%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B%E8%AE%B0%E5%BD%95/</guid>
+      <description>vim快捷键记录 光标移动 按键 操作 h 左移 j 下移 k 上移 l 右移 H 移动到当前屏幕首行第一个字符 M 移动到当前屏幕中间行第一个字符 L 移动到当前屏幕尾行第</description>
+    </item>
+    
+    <item>
+      <title>Linux系统操作命令</title>
+      <link>https://brandykk.gitee.io/posts/linux/common/doc/linux%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Wed, 09 Dec 2020 14:32:25 +0800</pubDate>
+      
+      <guid>https://brandykk.gitee.io/posts/linux/common/doc/linux%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/</guid>
+      <description>操作系统基本配置查询 参考微信文章 1. 查看操作系统版本 # cat /etc/redhat-release这个命令主要是查看红帽发行的操作系统的版本号 [root@node5 ~]#</description>
+    </item>
+    
+    <item>
+      <title>manjaro配置</title>
+      <link>https://brandykk.gitee.io/posts/linux/manjaro/doc/manjaro-linux/</link>
+      <pubDate>Wed, 09 Dec 2020 14:32:25 +0800</pubDate>
+      
+      <guid>https://brandykk.gitee.io/posts/linux/manjaro/doc/manjaro-linux/</guid>
+      <description>分区 参考：博客 非标准(按需分配，至少有/分区): 文件类型 文件夹 大小（M） 标记 fat32 /boot/efi 300M boot,esp（用于双系统启动分区） ext4 /opt 20G 第三方软件安装</description>
+    </item>
+    
+    <item>
+      <title>WIN10安装基础开发工具</title>
+      <link>https://brandykk.gitee.io/posts/windows/doc/win10%E5%AE%89%E8%A3%85%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Wed, 09 Dec 2020 14:32:25 +0800</pubDate>
+      
+      <guid>https://brandykk.gitee.io/posts/windows/doc/win10%E5%AE%89%E8%A3%85%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</guid>
+      <description>JDK 1. 新建系统变量: 变量名： JAVA_HOME 变量值：安装目录 2. 继续新建CLASSPATH变量 变量名： CLASSPATH 变量值： .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar 3. 添加Path 在系统变量区域，选择Path,</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://brandykk.gitee.io/posts/linux/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brandykk.gitee.io/posts/linux/readme/</guid>
+      <description>博客学习中。。。 正在学习怎么玩。。。</description>
+    </item>
+    
+  </channel>
+</rss>

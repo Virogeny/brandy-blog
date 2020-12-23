@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="author" content="白小生">
+		<meta name="description" content="学习。。。">
+		<meta name="generator" content="Hugo 0.79.0" />
+		<title>vim快捷键记录 &middot; 白小生</title>
+		<link rel="shortcut icon" href="https://brandykk.gitee.io/images/favicon.ico">
+		<link rel="stylesheet" href="https://brandykk.gitee.io/css/style.css">
+		<link rel="stylesheet" href="https://brandykk.gitee.io/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://brandykk.gitee.io/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://brandykk.gitee.io/'> <span class="arrow">←</span>🏡</a>
+	
+	<a href='https://brandykk.gitee.io/posts'>时间线</a>
+	<a href='https://brandykk.gitee.io/tags'>标签</a>
+	<a href='https://brandykk.gitee.io/about'>关于</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        vim快捷键记录
+                    </h1>
+                    <h2 class="headline">
+                    Dec 21, 2020 16:27
+                    · 796 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://brandykk.gitee.io/tags/linux">linux</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#光标移动">光标移动</a></li>
+    <li><a href="#内容插入">内容插入</a></li>
+    <li><a href="#基本动作">基本动作</a></li>
+    <li><a href="#底线命令">底线命令</a></li>
+  </ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    <h1 id="vim快捷键记录">vim快捷键记录</h1>
+<h2 id="光标移动">光标移动</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">按键</th>
+<th style="text-align:center">操作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">h</td>
+<td style="text-align:center">左移</td>
+</tr>
+<tr>
+<td style="text-align:center">j</td>
+<td style="text-align:center">下移</td>
+</tr>
+<tr>
+<td style="text-align:center">k</td>
+<td style="text-align:center">上移</td>
+</tr>
+<tr>
+<td style="text-align:center">l</td>
+<td style="text-align:center">右移</td>
+</tr>
+<tr>
+<td style="text-align:center">H</td>
+<td style="text-align:center">移动到当前屏幕首行第一个字符</td>
+</tr>
+<tr>
+<td style="text-align:center">M</td>
+<td style="text-align:center">移动到当前屏幕中间行第一个字符</td>
+</tr>
+<tr>
+<td style="text-align:center">L</td>
+<td style="text-align:center">移动到当前屏幕尾行第一个字符</td>
+</tr>
+<tr>
+<td style="text-align:center">w</td>
+<td style="text-align:center">在每行的行首往下移动</td>
+</tr>
+<tr>
+<td style="text-align:center">e</td>
+<td style="text-align:center">在每行的行尾往下移动</td>
+</tr>
+<tr>
+<td style="text-align:center">b</td>
+<td style="text-align:center">在每行的行首向上移动</td>
+</tr>
+<tr>
+<td style="text-align:center">G</td>
+<td style="text-align:center">移动到文档的最后</td>
+</tr>
+<tr>
+<td style="text-align:center">gg</td>
+<td style="text-align:center">移动到文档的行首</td>
+</tr>
+<tr>
+<td style="text-align:center">nG</td>
+<td style="text-align:center">n为数字，20G就是移动到文档的第20行</td>
+</tr>
+<tr>
+<td style="text-align:center">n</td>
+<td style="text-align:center">n为数字，可配合方向键使用向上或向下移动n行</td>
+</tr>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">移动到行首</td>
+</tr>
+<tr>
+<td style="text-align:center">$</td>
+<td style="text-align:center">移动到行尾</td>
+</tr>
+<tr>
+<td style="text-align:center">ctrl+f</td>
+<td style="text-align:center">屏幕『向下』移动一页，相当于 [Page Down]按键</td>
+</tr>
+<tr>
+<td style="text-align:center">ctrl+b</td>
+<td style="text-align:center">屏幕『向上』移动一页，相当于 [Page Up] 按键</td>
+</tr>
+<tr>
+<td style="text-align:center">[Ctrl] + [d]</td>
+<td style="text-align:center">屏幕『向下』移动半页</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl] + [u]</td>
+<td style="text-align:center">屏幕『向上』移动半页</td>
+</tr>
+</tbody>
+</table>
+<h2 id="内容插入">内容插入</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">按键</th>
+<th style="text-align:center">操作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">i</td>
+<td style="text-align:center">当前字符之前插入内容</td>
+</tr>
+<tr>
+<td style="text-align:center">I</td>
+<td style="text-align:center">当前行首插入内容</td>
+</tr>
+<tr>
+<td style="text-align:center">a</td>
+<td style="text-align:center">当前字符之后插入内容</td>
+</tr>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">当前行尾插入内容</td>
+</tr>
+<tr>
+<td style="text-align:center">o</td>
+<td style="text-align:center">在当前行下面另起一行开始插入内容</td>
+</tr>
+<tr>
+<td style="text-align:center">O</td>
+<td style="text-align:center">在当前行上面另起一行开始插入内容</td>
+</tr>
+<tr>
+<td style="text-align:center">s</td>
+<td style="text-align:center">删除当前选中的字符并在当前字符的位置开始插入内容</td>
+</tr>
+<tr>
+<td style="text-align:center">S</td>
+<td style="text-align:center">删除当前行并在当前行的位置开始插入内容</td>
+</tr>
+<tr>
+<td style="text-align:center">d</td>
+<td style="text-align:center">删除，需要配合使用比如d$</td>
+</tr>
+<tr>
+<td style="text-align:center">dd</td>
+<td style="text-align:center">删除行</td>
+</tr>
+<tr>
+<td style="text-align:center">D</td>
+<td style="text-align:center">删除当前字符和当前行的当前字符之后的所有内容</td>
+</tr>
+<tr>
+<td style="text-align:center">c</td>
+<td style="text-align:center">删除行并插入，需要配合使用;比如c+k 删除上一行并在上一行的位置开始插入</td>
+</tr>
+<tr>
+<td style="text-align:center">C</td>
+<td style="text-align:center">删除当前字符和之后的所有字符并在当前字符的位置开始插入</td>
+</tr>
+<tr>
+<td style="text-align:center">y</td>
+<td style="text-align:center">复制，和d一样需要配合使用</td>
+</tr>
+<tr>
+<td style="text-align:center">yy</td>
+<td style="text-align:center">复制一行</td>
+</tr>
+<tr>
+<td style="text-align:center">p</td>
+<td style="text-align:center">粘贴到当前字符的后面</td>
+</tr>
+<tr>
+<td style="text-align:center">P</td>
+<td style="text-align:center">粘贴到当前字符的前面</td>
+</tr>
+<tr>
+<td style="text-align:center">v</td>
+<td style="text-align:center">可视</td>
+</tr>
+<tr>
+<td style="text-align:center">V</td>
+<td style="text-align:center">可视行</td>
+</tr>
+<tr>
+<td style="text-align:center">ctrl+v</td>
+<td style="text-align:center">可视块</td>
+</tr>
+<tr>
+<td style="text-align:center">x</td>
+<td style="text-align:center">剪切当前字符，配合使用可以实现部分剪切操作</td>
+</tr>
+<tr>
+<td style="text-align:center">X</td>
+<td style="text-align:center">剪切当前字符的前一个字符</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>特殊操作：</li>
+</ul>
+<blockquote>
+<ul>
+<li>利用可视块在所有行前面添加字符：</li>
+</ul>
+<blockquote>
+<ol>
+<li>将光标移动到改动的字符上</li>
+<li><code>ctrl+v</code>进入可视块模式进行选择</li>
+<li>输入<code>I</code>进入插入模式并输入内容</li>
+<li>按<code>ESC</code>两次</li>
+</ol>
+</blockquote>
+</blockquote>
+<h2 id="基本动作">基本动作</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">按键</th>
+<th style="text-align:center">操作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">u</td>
+<td style="text-align:center">撤销上一步操作</td>
+</tr>
+<tr>
+<td style="text-align:center">ctrl+r</td>
+<td style="text-align:center">前进到刚刚撤销的那一步</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="底线命令">底线命令</h2>
+<ul>
+<li>在命令模式下<code>shift+:</code>进入</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">命令</th>
+<th style="text-align:center">操作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">w</td>
+<td style="text-align:center">保存文件</td>
+</tr>
+<tr>
+<td style="text-align:center">q</td>
+<td style="text-align:center">退出，q!:强制推出，不保存</td>
+</tr>
+<tr>
+<td style="text-align:center">x</td>
+<td style="text-align:center">保存并推出</td>
+</tr>
+<tr>
+<td style="text-align:center">?</td>
+<td style="text-align:center">在光标以上搜索字符，n：下一个搜索结果，N：上一个结果</td>
+</tr>
+<tr>
+<td style="text-align:center">/</td>
+<td style="text-align:center">在光标以下搜索字符，n：下一个搜索结果，N：上一个结果</td>
+</tr>
+<tr>
+<td style="text-align:center">关于搜索</td>
+<td style="text-align:center">搜索之后取消高亮：在命令模式下输入noh</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+                </section>
+            </article>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/Virogeny">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2020 <i class="fa fa-heart" aria-hidden="true"></i> 白小生
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://brandykk.gitee.io/js/jquery-3.3.1.min.js"></script>
+<script src="https://brandykk.gitee.io/js/main.js"></script>
+<script src="https://brandykk.gitee.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'your_google_analytics_id', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

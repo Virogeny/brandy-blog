@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on 白小生</title>
+    <link>https://brandykk.gitee.io/about/</link>
+    <description>Recent content in About on 白小生</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate><atom:link href="https://brandykk.gitee.io/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
