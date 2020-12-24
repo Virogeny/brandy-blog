@@ -4,11 +4,11 @@ date = 2020-12-23T14:59:36+08:00
 tags = ["JAVA"]
 categories = ["JAVA"]
 draft = false
-description = "java新特新之stream流"
+description = "java8新特新之stream流"
 
 +++
 
-## 将List\<T>转Map\<String,List\<T>
+## 将List\<T>转Map\<String,List\<T>>
 
 ```java
 List<AreaOfOrg> areaOfOrgs = areaOfOrgMapper.countyListAll();

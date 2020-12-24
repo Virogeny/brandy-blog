@@ -721,9 +721,6 @@ systemctl stop|start mariadb.service
 
 ## 破解navicat15(无法输入中文)
 
-- [参考github](https://github.com/HeQuanX/learning/releases/tag/1.0.1)
-
-
 $\color{red}\textbf{注意：破解时需要断网输入激活码，破解文件要和navicat安装包在同意目录下}$
 
 ```sh
@@ -734,6 +731,7 @@ cd ./navicat15-zh/bin
 # 先（断网）启动navicat,然后执行破解命令
 ./navicat-keygen --text ./RegPrivateKey.pem
 # 根据控制台提示进行破解
+# 可能提示有so文件找不到需要安装openssl,安装aur里的wps-office时会安装这个包
 ```
 
 ---
@@ -819,10 +817,6 @@ unar -e cp936 ./xx.zip
 [参考github](https://github.com/countstarlight/deepin-wine-wechat-arch)
 
 - 安装成功后可能还有bug,万恶的腾讯
-
----
-
-- 
 
 ---
 

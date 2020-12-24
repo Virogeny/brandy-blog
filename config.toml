@@ -11,17 +11,17 @@ hasCJKLanguage = true
 
 [params]
 	author = "白小生"
-	description = "学习。。。"
-	bio = "测试中。。。"
+	description = "仅个人使用用户记录小东西方便自己查询而已"
+	bio = "FUCK EVERYTHING"
 
-	twitter = "your_twitter_id"
-	facebook = "your_facebook_id"
+	twitter = ""
+	facebook = ""
 
 	enableRSS = false
 	enableToc = true
 
 	enableDisqus = false
-	disqusShortname = "your_disqus_short_name"
+	disqusShortname = ""
 
 
 	enableSummary = true
@@ -32,7 +32,7 @@ hasCJKLanguage = true
 	enableGoogleAnalytics = true
 	enableBaiduAnalytics = false
 	# Set the value to your baidu analysis code if you want to use baidu analytics
-	baiduAnalytics = 'your_baidu_analysis_code'
+	baiduAnalytics = ''
 
 	enableTwitterCard = false
 	# The url for twitter card image, default is avatar.png in static/images directory
@@ -50,7 +50,7 @@ hasCJKLanguage = true
 	about = "关于"
 	archive = "时间线"
 	subscribe = "订阅"
-	tags = "标签"
+	tags = "📎标签"
 
 	olderPosts = ""
 	newerPosts = ""
